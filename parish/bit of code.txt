@@ -1,0 +1,32 @@
+<?php
+
+ if (isset($_REQUEST['Submit'])) {
+
+$selected_year = mysql_real_escape_string(stripslashes($_REQUEST['Year']));
+$selected_month = mysql_real_escape_string(stripslashes($_REQUEST['month']));
+$selected_day = mysql_real_escape_string(stripslashes($_REQUEST['day']));
+$selected_time = mysql_real_escape_string(stripslashes($_REQUEST['time']));
+
+$result = mysql_query("SELECT * FROM $db_table WHERE Year='$selected_year' AND month='$selected_month' AND day=$selected_day");
+
+
+
+
+if(isset($result))
+{
+	
+}
+else
+{
+	# THIS CODE TELL MYSQL TO INSERT THE DATA FROM THE FORM INTO YOUR MYSQL TABLE
+	$sql = "INSERT INTO $db_table(user_name,address,Telephone,Type,down,user_email,down2,Credit,Year,month,day,time) values ('".mysql_real_escape_string(stripslashes($_REQUEST['user_name']))."','".mysql_real_escape_string(stripslashes($_REQUEST['address']))."','".mysql_real_escape_string(stripslashes($_REQUEST['Telephone']))."','".mysql_real_escape_string(stripslashes($_REQUEST['Type']))."','".mysql_real_escape_string(stripslashes($_REQUEST['down']))."','".mysql_real_escape_string(stripslashes($_REQUEST['user_email']))."','".mysql_real_escape_string(stripslashes($_REQUEST['down2']))."','".mysql_real_escape_string(stripslashes($_REQUEST['Credit']))."','$selected_year','$selected_month','$selected_day','$selected_time')";
+        $result = mysql_query($sql ,$db);
+	if($result) {
+	echo '<h1>Thank you</h1>Your information has been entered into our database<br><br>';
+	} else {
+	echo "ERROR: ".mysql_error();
+	}
+}
+} else {
+    ?>
+

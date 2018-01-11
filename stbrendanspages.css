@@ -1,0 +1,1299 @@
+/* 
+    Document   : stbrendanspages
+    Created on : 05-Nov-2009, 17:20:55
+    Author     : Rodney
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root {
+    display: block;
+}
+/*
+@font-face
+{
+    font-family: 'Monotype Corsiva';
+    font-style:  normal;
+    font-weight: normal;
+    src: url(fonts\MONOTYP3.eot);
+}
+
+@font-face
+{
+    font-family: 'Monotype Corsiva';
+    font-style:  normal;
+    font-weight: 700;
+    src: url(fonts\MONOTYP2.eot);
+}
+
+@font-face
+{
+    font-family: 'Monotype Corsiva';
+    font-style:  oblique;
+    font-weight: normal;
+     src: url(fonts\MONOTYP1.eot);
+ }
+
+ @font-face
+ {
+    font-family: 'Monotype Corsiva';
+    font-style:  oblique;
+    font-weight: 700;
+    src: url(fonts\MONOTYP0.eot);
+ }*/
+
+ html
+ {
+    height: 100%;
+ }
+
+ body
+ {
+    background-color: white;
+    position: relative;
+ }
+
+ p
+ {
+    text-align: center;
+    /*font-family: 'Monotype Corsiva', Georgia, 'Century Gothic', sans-serif;*/
+   font-family: Georgia, 'Century Gothic', sans-serif;
+    font-size: 15px;
+    color: #FFFF00;
+    margin:0 0 0 0;
+    
+ }
+
+ p a:link
+{
+    /*font-family: 'Monotype Corsiva', Georgia, 'Century Gothic', sans-serif;*/
+    font-family: Georgia, 'Century Gothic', sans-serif;
+    background-color: Transparent;
+    font-style:  normal;
+    font-size: 12px;
+    color: #FFCC00;
+    text-align: center;
+}
+
+p a:hover
+{
+    background-color: Transparent;
+    font-style:  normal;
+    color:#0000CC;
+    
+     font-size: 12px;
+}
+
+p a:active
+{
+    background-color: Transparent;
+    font-style:  normal;
+    color:white;
+    font-style:  oblique;
+     font-size: 12px;
+}
+
+p a:visited
+{
+    background-color: Transparent;
+    font-style:  normal;
+    color:#663366;
+     font-size: 12px;
+    /*font-style:  oblique;*/
+}
+
+h1
+{
+    font-family: Georgia, 'Century Gothic', sans-serif;
+   /* font-family: 'Monotype Corsiva', Georgia, 'Century Gothic', sans-serif;*/
+    color:#330066;
+    text-align: center;
+}
+
+h2
+{
+   font-family: Georgia, 'Century Gothic', sans-serif;
+    /*font-family: 'Monotype Corsiva', Georgia, 'Century Gothic', sans-serif;*/
+    color:#0099FF;
+    text-align: center;
+}
+
+h3
+{
+    font-family: Georgia, 'Century Gothic', sans-serif;
+    /*font-family: 'Monotype Corsiva', Georgia, 'Century Gothic', sans-serif;*/
+    color:#0033CC;
+    font-style:  normal;
+    /*font-size: 24px;*/
+    text-align: center;
+}
+
+h4
+{
+    font-family: Georgia, 'Century Gothic', sans-serif;
+    /*font-family: 'Monotype Corsiva', Georgia, 'Century Gothic', sans-serif;*/
+    color:#CCFF00;
+    text-align: center;
+}
+
+h5
+{
+    font-family: Georgia, 'Century Gothic', sans-serif;
+   /* font-family: 'Monotype Corsiva', Georgia, 'Century Gothic', sans-serif;*/
+    color:#FF9933;
+    /*font-size: 14px;*/
+    text-align: center;
+}
+
+h6
+{
+    /*font-family: 'Monotype Corsiva', Georgia, 'Century Gothic', sans-serif;*/
+    font-family: Georgia, 'Century Gothic', sans-serif;
+    color:#FFFF00;
+     /*font-size: 13px;*/
+     text-align: center;
+}
+ a:link
+{
+    font-family: Georgia, 'Century Gothic', sans-serif;
+    /*font-family: 'Monotype Corsiva', Georgia, 'Century Gothic', sans-serif;*/
+    background-color: Transparent;
+    font-style:  normal;
+    color: #FFCC00;
+}
+
+ a:hover
+{
+     font-family: Georgia, 'Century Gothic', sans-serif;
+   /* font-family: 'Monotype Corsiva', Georgia, 'Century Gothic', sans-serif;*/
+    background-color: Transparent;
+    font-style:  normal;
+    color:#0000CC;
+   
+   
+}
+
+ a:active
+{
+     font-family: Georgia, 'Century Gothic', sans-serif;
+    /*font-family: 'Monotype Corsiva', Georgia, 'Century Gothic', sans-serif;*/
+    background-color: Transparent;
+    font-style:  normal;
+    color:white;
+    font-style:  oblique;
+   
+}
+
+ a:visited
+{
+     font-family: Georgia, 'Century Gothic', sans-serif;
+    /*font-family: 'Monotype Corsiva', Georgia, 'Century Gothic', sans-serif;*/
+    font-style:  normal;
+    color:#99CC00;
+  
+    /*font-style:  oblique;*/
+}
+
+span.underline
+{
+    text-decoration: underline;
+}
+
+ /* header */
+ div.header
+ {
+     position: relative;
+     width: 100%;
+     height: 153px;
+     left: 14%;
+ }
+
+ img.header_pic
+ {
+     width: 800px;
+     height: 153px;
+     
+          
+     
+ }
+
+/* toolbar */
+div.toolbar
+{
+    position: relative;
+    width: 800px;
+    height: 38px;
+    left: 14%;
+}
+
+table.toolbar_table
+{
+    width: 100%;
+    border: 0px;
+    margin: 0px;
+    font-size: 12px;
+    height: 38px;
+    background-color: #705020;
+   
+}
+
+table.toolbar_table tr
+{
+    background-color: #705020;
+    
+    
+}
+
+
+table.toolbar_table a
+{
+    font-size: 17px;
+}
+
+img.toolbarpane_pic
+{
+    width: 70px;
+    height: 38px;
+}
+
+img.toolbarcandle_pic
+{
+    width: 20px;
+    height: 19px;
+}
+
+/* the double column positioning */
+/* column container */
+.colmask
+{
+    position:relative;	/* This fixes the IE7 overflow hidden bug */
+    clear:both;
+    float:left;
+    width:100%;			/* width of whole page */
+    overflow:hidden;/* This chops off any overhanging divs */
+    width: 800px;
+  
+    left:14%;
+    top: 13px;
+    
+    
+}
+/* common column settings */
+.colleft
+{
+    float:left;
+    width:100%;
+    position:relative;
+   
+}
+
+
+
+
+.col1,.col2
+{
+    background-color: #976D70;
+    float:left;
+    position:relative;
+    padding:0 0 0 0;
+    overflow:hidden;
+}
+
+/* 2 Column (left menu) settings */
+.leftmenu
+{
+    background-color: #976D70;		/* right column background colour */
+}
+
+.leftmenu .colleft
+{
+    /*right:86%;*/    /* right column width */
+    
+    right: 670px;
+   background-color: #976D70;	/* left column background colour */
+
+}
+.leftmenu .col1
+{
+   			/* right column content width */
+   width: 670px;
+    left:100%;                  /* 100% plus left column left padding */
+    font-size: 15px;
+    background-color: #976D70;
+   
+}
+
+.leftmenu .col2
+{
+       /* left column content width (column width minus left and right padding) */
+   width: 130px;
+    left:0%;                    /* (right column left and right padding) plus (left column left padding) */
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    z-index:1;
+    
+
+}
+
+.col2 p
+{
+    font-size: 12px;
+   
+}
+
+/* Footer styles */
+
+img.pillarbottom_icon
+{
+    width:127px;
+   /* height:69px;*/
+    height:70px;
+}
+
+sidebar_bottom_icon
+{
+    width:127px;
+   /* height:69px;*/
+    height:100px;
+}
+
+div.footer
+{
+    position: relative;
+    clear:both;
+    float:left;
+    width:800px;
+    /*border-top:1px solid #000;*/
+   /* top: 13px;*/
+   /* left: 14%;*/
+   left: 674px;
+    background-color: #976D70;
+    /*background-image:  url("images/pillarbottom_icon.png");*/
+     background-image:  url("images/sidebar_bottom_icon.png");
+
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    padding: 0px;
+     z-index:1;
+}
+
+/*#footer p
+{
+    padding: 5px;
+    margin:0;
+}*/
+
+/* sidebar content */
+
+img.sidebar_top_icon
+{
+    width: 130px;
+    height: 160px;
+    
+}
+
+
+img.sidebar_bar_icon
+{
+    width: 16px;
+    height: 10px;
+
+
+}
+
+div.sidebar_top
+{
+     z-index:1;
+}
+
+div.sidebar_content
+{
+  
+   background-image:  url("images/sidebar.png");
+   background-repeat: repeat-y;
+  background-position: right top;
+  
+ 
+ 
+  
+}
+
+div.sidebar_image
+{
+    background-image:  url("images/sidebar.png");
+    background-repeat: repeat-y;
+    background-position: right top;
+    position: absolute;
+    width: 16px;
+    height: 100%;
+    right: 670px;
+    z-index:0;
+    
+}
+
+div.sidebar_content p,h5,h6
+{
+    width: 115px;
+}
+
+div.sidebar_content p
+{
+     font-size: 12px;
+     
+}
+
+p.feastday
+{
+    background-color: #0000FF;
+}
+
+p.calendarevent
+{
+     background-color: #99ff00;
+}
+
+p.event
+{
+    background-color: #33CCFF;
+}
+
+div.footercontent
+{
+    position: relative;
+    left: 126px;
+    width: 800px;
+   
+   
+
+}
+
+table.footertable
+{
+    border-style: groove;
+    border-width: 2px;
+    border-color: white;
+    margin:0 0 0 0;
+     position:relative;
+     /*left: 80px;*/
+  
+    
+ }
+
+table.footertable tr
+{
+    margin:0 0 0 0;
+}
+
+table.footertable tfoot>tr>th p
+{
+    font-size: 10px;
+}
+
+table.footertable td
+{
+    margin:0 0 0 0;
+}
+
+
+
+table.footertable caption
+{
+     font-family: Georgia, 'Century Gothic', sans-serif;
+     /*font-family: 'Monotype Corsiva', Georgia, 'Century Gothic', sans-serif;*/
+     font-size: 15px;
+     font-weight: normal;
+     color: #FFFF00;
+     text-decoration: underline;
+}
+
+table.footertable a
+{
+    margin: 0 0 0 0;
+    font-size: 12px;
+}
+
+table.footertable td>p
+{
+     font-size: 15px;
+    
+}
+
+/* Calender */
+
+div.calendar
+{
+   width:110px;
+}
+
+table.calendar_table
+{
+   
+    border-style: groove;
+    border-width: 1px;
+    border-color: black;
+    margin:0 0 0 0;
+    background-color: #886136;
+     width:110px;
+}
+
+table.calendar_table caption>p
+{
+    font-size: 14px;
+     /*background-color: #886136;*/
+     
+}
+
+table.calendar_table thead
+{
+     background-color: #FFCC00;
+     
+}
+
+table.calendar_table thead>tr>th>p
+{
+     color: Black;
+}
+
+#Calendardays
+{
+    background-color: #FFCC66;
+}
+
+table.calendar_table tfoot
+{
+    border-style: groove;
+    border-width: 2px;
+    border-color: white;
+    background-color: #976D70;
+    margin:0 0 0 0;
+    background-image:  url("images/sidebar_calendar.png");
+   background-repeat: repeat-y;
+    background-position: right top;
+}
+
+table.calendar_table tbody
+{
+    background-color: #FFCC99;
+    color: #5F4CD9;
+}
+
+table.calendar_table tbody>tr>th p,table.calendar_table tbody>tr>th a
+{
+    color: black;
+    width: 14px;
+}
+
+table.calendar_table tbody>tr>td p,table.calendar_table tbody>tr>td a
+{
+   
+    width: 14px;
+}
+
+
+
+table.calendar_table tbody>tr>td p, table.calendar_table tbody>tr>td a
+{
+    color: #5F4CD9;
+   
+}
+
+/* current day in the calendar */
+
+#calendar_day
+{
+    background-color:  #FF6600;
+}
+
+table.calendar_table tbody>tr>th,table.calendar_table tbody>tr>td
+{
+    width: 16px;
+    height: 19px;
+}
+
+img.calendar_arrows
+{
+    width: 10px;
+    height: 16px;
+    text-align:center;
+}
+/* Home page */
+
+table.wheelchair_table
+{
+    position: relative;
+    left: 80px;
+    border:1px;
+   
+    margin: 10px 10px 10px 10px;
+    
+
+}
+
+table.wheelchair_table p
+{
+    text-align: center;
+     font-family: Georgia, 'Century Gothic', sans-serif;
+    /*font-family: 'Monotype Corsiva', Georgia, 'Century Gothic', sans-serif;*/
+    font-size: 15px;
+    font-style: oblique;
+    font-weight: bold;
+    color: #0000A3;
+
+}
+
+img.disabled_image
+{
+    width: 42px;
+    height: 41px;
+}
+
+table.ParishPriests_table
+{
+    width: 100%;
+    border: 0px;
+}
+
+table.ParishPriests_table caption
+{
+    text-align: center;
+     font-family: Georgia, 'Century Gothic', sans-serif;
+    /*font-family: 'Monotype Corsiva', Georgia, 'Century Gothic', sans-serif;*/
+    font-size: 17px;
+    font-style: oblique;
+    font-weight: bold;
+    color: #FFFF00;
+}
+img.jhand_image
+{
+    width: 200px;
+    height: 181px;
+    border: 0px;
+}
+
+img.jharrington_image
+{
+    width: 200px;
+    height: 163px;
+    border: 1px;
+}
+
+img.FrPaddyStanley_image
+{
+    width: 200px;
+    height: 163px;
+    border: 1px;
+}
+    
+img.FrEdwinMcCallion_image
+{
+    width: 200px;
+    height: 163px;
+    border: 1px;
+}
+
+img.patbyrne_image
+{
+    width: 200px;
+    height: 177px;
+    border: 0px;
+}
+
+img.Kieranbutler_image
+{
+    width: 200px;
+    height: 165px;
+    border: 1px;
+}
+
+table.contacts_table
+{
+     width:100%;
+     
+     
+}
+
+table.contacts_table caption
+{
+    text-align: center;
+     font-family: Georgia, 'Century Gothic', sans-serif;
+   /* font-family: 'Monotype Corsiva', Georgia, 'Century Gothic', sans-serif;*/
+    font-size: 17px;
+    font-style: oblique;
+    font-weight: bold;
+    color: #FFFF00;
+
+}
+
+img.email_image
+{
+    width: 55px;
+    height:52px;
+    border: 0px;
+}
+
+img.letter_image
+{
+    width: 65px;
+    height:40px;
+    border: 0px;
+}
+
+img.telephone_image
+{
+    width: 65px;
+    height: 64px;
+    border: 0px;
+}
+
+/* church style sheets */
+
+table.mass_times_table
+{
+    width:100%;
+    
+}
+
+table.mass_times_table thead
+{
+    width:100%;
+    background-color: #000066;
+}
+
+#masstimes_evenrow
+{
+    background-color: #000099;
+}
+
+#masstimes_oddrow
+{
+    background-color: #336699;
+}
+
+#masstimes_Sunday
+{
+    background-color: #663399;
+}
+
+/*
+    Time schedule
+*/
+table.centre_schedule
+{
+    min-width:590px;
+    border:2pt;
+    border-style: Outset;
+    border-color:#081057;
+}
+
+table.centre_schedule caption
+{
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+table.centre_schedule thead
+{
+    background-image: url("images/bgtable2.jpg");
+    color:#ffffca;
+
+}
+
+table.centre_schedule thead > tr > th
+{
+    width:100px;
+    color:#ffffca;
+    font-weight: bold;
+
+}
+
+#centre_schedule_weekend
+{
+   color:#F4AE2C;
+}
+
+table.centre_schedule tbody > tr
+{
+   background-color:#99BDFF;
+
+}
+
+table.centre_schedule tbody > tr > td
+{
+    min-width:86px;
+    background-color:#3300CC;
+
+
+
+}
+
+table.links
+{
+    position: relative;
+    left: 100px;
+}
+
+table.links tbody>tr>td
+{
+   
+    padding: 10px;
+}
+
+/* notices */
+
+div.notices
+{
+    position: relative;
+    left: 25%;
+	
+
+   
+}
+
+table.Notices_table td
+{
+     border: 0;
+    padding: 0px;
+    margin: -2px;
+
+}
+
+table.Notices_table td>p
+{
+    padding: -2px;
+}
+
+table.Notices_table caption
+{
+    text-align: center;
+     font-family: Georgia, 'Century Gothic', sans-serif;
+   /* font-family: 'Monotype Corsiva', Georgia, 'Century Gothic', sans-serif;*/
+    font-size: 17px;
+    font-style: oblique;
+    font-weight: bold;
+    color: #FFFF00;
+
+
+}
+
+img.noticeboard_topfinal_image
+{
+    width: 300px;
+    height: 160px;
+    margin: -2px;
+    border: 0;
+     padding: 0px;
+   
+}
+
+/*img.noticeboard_contentfinal_image
+{
+    width: 300px;
+    height: 25px;
+    margin: -1px;
+    
+}*/
+
+img.noticeboard_bottomfinal_image
+{
+    width: 300px;
+    height: 60px;
+    margin: -2px;
+    border: 0px;
+     padding: 0px;
+}
+
+div.notices p
+{
+    position: relative;
+    background-image: url("images/noticeboard_contentfinal.png");
+    width: 300px;
+    
+    border: 0px;
+     padding: 0px;
+    margin: -2px;
+    
+    left: 2px;
+   
+}
+
+span.subscript
+{
+    font-size:10px;
+    vertical-align: super;
+}
+
+table.Notices_table td>p
+{
+     border: 0px;
+    padding: -10px;
+    margin: -2px;
+    right: 2px;
+   
+}
+
+table.notice_table2 td>p
+{
+
+     border: 0;
+    padding: 0px;
+    margin: 0px;
+    left: 4px;
+}
+
+div.notice
+{
+    position: relative;
+    background-image: url("images/noticeboard_contentfinal.png");
+    width: 300px;
+
+    border: 0;
+     /*padding-top: 2px;
+     padding-bottom: 2px;
+     padding-left: -5px;
+     padding-right:-5px;
+        margin: -2px;*/
+}
+div.notice p
+{
+    width: 270px;
+    padding-left: 15px;
+    padding-right: 5px;
+    margin-top: 2px;
+    
+    
+     
+}
+
+
+/*
+div.notice p
+{
+    position: relative;
+    background-image: url("images/noticeboard_contentfinal.png");
+    width: 300px;
+   
+    border: 0;
+     padding-top: 2px;
+     padding-bottom: 2px;
+     padding-left: -5px;
+     padding-right:-5px;
+        margin: -2px;
+  
+}
+*/
+p.noticesheading
+{
+    position: relative;
+     background-image: url("images/noticeboard_contentfinal.png");
+     width: 300px;
+     text-align: center;
+     font-size: 16px;
+     font-weight: bold;
+     height: 40px;
+     padding-top: 2px;
+     padding-bottom: 2px;
+      
+}
+
+/*
+Parish Personel page
+*/
+
+table.OtherPersonnel_table
+{
+    position: relative;
+    left: 150px;
+}
+
+table.OtherPersonnel_table td
+{
+    width: 200px;
+}
+img.PaulMcKeena_image
+{
+    width:200px;
+    height:178px;
+    border:1px;
+}
+
+img.CiaranDoyle_image
+{
+    width:200px;
+    height:150px;
+    border:1px;
+}
+
+img.MalachyKeena_image
+{
+    width:200px;
+    height:178px;
+    border:1px;
+}
+
+img.PaddyCanty_image
+{
+    width:200px;
+    height:185px;
+    border:1px;
+}
+
+img.MargaretSmith_image
+{
+    width:200px;
+    height:187px;
+    border:1px;
+}
+
+table.PastPriests_table
+{
+    position: relative;
+    left: 150px;
+
+    width: 400px;
+    padding:4px;
+    border:0px;
+    background-color: #000066;
+}
+
+tr.PastPriests_oddcell
+{
+    background-color: #336699;
+}
+
+/* Schools of the Parish*/
+
+img.ChanelLogo_image
+{
+    width:250px;
+    height:282px;
+    border:1px;
+}
+
+img.Chanel_image
+{
+    width:151px;
+    height:96px;
+    border:1px;
+}
+
+img.mercy_image
+{
+    width:120px;
+    height:63px;
+    border:1px;
+}
+
+img.ScoilChaitriona_image
+{
+    width:120px;
+    height:90px;
+    border:1px;
+}
+
+a.externallink
+{
+    color: #FFCC00;
+}
+
+ a.externallink:hover
+{
+    background-color: Transparent;
+    font-style:  normal;
+    color:#0000CC;
+    font-style:  oblique;
+    /*font-size: 17px;*/
+}
+
+/*  History Pages  */
+
+table.picture_table
+{
+
+    background-color: #003366;
+    
+
+
+}
+
+table.picture_table_right
+{
+    
+    background-color: #003366;
+    float: right;
+
+   
+}
+
+table.picture_table_left
+{
+
+    background-color: #003366;
+    float: left;
+
+
+}
+
+table.picture_table_centre
+{
+
+    background-color: #003366;
+    position: relative;
+    left: 40px;
+
+
+}
+img.stbrendansboat_image
+{
+    width:299px;
+    height:191px;
+    border:1px;
+}
+
+img.stbrendan_image
+{
+    width:150px;
+    height:199px;
+    border:1px;
+}
+
+img.stbrendanembarking_image
+{
+    width:559px;
+    height:341px;
+    border:1px;
+}
+
+img.thatchedchapel_image
+{
+    width:560px;
+    height:345px;
+    border:1px;
+}
+
+img.goldchalice1_image
+{
+    width:175px;
+    height:364px;
+    border:1px;
+}
+
+img.goldchalice2_image
+{
+    width:300px;
+    height:354px;
+    border:1px;
+}
+
+img.robertemmet_image
+{
+    width:300px;
+    height:394px;
+    border:1px;
+}
+
+img.ArchbishopDanielMurray_image
+{
+    width:250px;
+    height:328px;
+    border:1px;
+}
+
+img.oldchurch1936_image
+{
+    width:560px;
+    height:374px;
+    border:1px;
+}
+
+img.SrCatherineMcAuley_image
+{
+    width:250px;
+    height:302px;
+    border:1px;
+}
+
+img.oldchurchaltar_image
+{
+    width:560px;
+    height:423px;
+    border:1px;
+}
+
+
+img.Stainedglass_image
+{
+    width:280px;
+    height:268px;
+    border:1px;
+}
+
+
+img.AgnusDeitabernacle_image
+{
+    width:220px;
+    height:188px;
+    border:1px;
+}
+
+
+img.CanonOFarrellcard_image
+{
+    width:220px;
+    height:382px;
+    border:1px;
+}
+
+img.Ambo_image
+{
+    width:220px;
+    height:327px;
+    border:1px;
+}
+
+img.ChanelCollege_image
+{
+    width:560px;
+    height:163px;
+    border:1px;
+}
+
+img.JeanClaudeColin_image
+{
+    width:250px;
+    height:212px;
+    border:1px;
+}
+
+embed.albums
+{
+    position: relative; left: 35px;
+}
+
+.submenu
+{
+    position: absolute;
+    top: 225px;
+    width: 200px;
+    background-color: #003333;
+    background-position: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #0000FF;
+
+}
+
+img.IEC_image
+{
+    width:115px;
+    height:60px;
+    border:1px;
+}

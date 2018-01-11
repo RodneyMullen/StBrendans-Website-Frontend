@@ -1,0 +1,138 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	color: #081234;
+	background-color:#244c89;
+}
+
+a			{color:#081057; text-decoration:none;}
+a:visited	{color:#691C15; text-decoration:none;}
+a.wh	{color:#6790FF; text-decoration:none;}
+a:hover		{text-decoration:underline; color:#000000;}
+a:hover.wh	{text-decoration:underline; color:#FF866E;}
+a.dark:hover	{font-size:small; color:#FF7D51;}
+span.heading
+{
+    color:#081057;
+    text-decoration:none;
+    font-size: 15px;
+}
+p.uvodnik	{font-style:italic; border-style:dashed; border:1px;
+  				padding:15px; border-color:#3B4774;}
+#P.hist:first-letter { font-size: 300%; float: left; }
+
+input,select,textarea	{ 
+	  background-color:#E4E1BF; color:#000115; 
+	  border-color:#FF6964; font-weight:bold; }
+
+p		{padding:0;}
+h3		{padding-bottom:0; border-bottom:2px;}
+h3.bily	{padding-bottom:0; color:#FFFFFF;}
+h3.pl	{border-color:#99d8ff; color:#130048; text-indent:10px;}
+i		{color:#000000;}
+
+hr		{color:#081234;}
+
+
+
+td.b	{color:#000000;}
+
+table.main
+{
+	width: 780px;
+	border-width: 0px;
+	background-color: #244c89;
+	
+	
+
+}
+
+table.main td
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+tr.firstrow_main
+{
+	background-color: #234E8D;
+}
+
+table.toplinks
+{
+	width:780px;
+	border-width: 0px; 
+	background-color:#27678F;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+table.toplinks td
+{
+	padding: 0px;
+	margin: 0px;
+	border-width: 0px; 
+}
+/*
+    Time schedule
+*/
+table.centre_schedule
+{
+    min-width:590px;
+    border:2pt;
+    border-style: Outset;
+    border-color:#081057
+}
+
+table.centre_schedule caption
+{
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+table.centre_schedule thead
+{
+    background-image: url("events/bgtable2.jpg");
+    color:#ffffca;
+
+}
+
+table.centre_schedule thead > tr > th
+{
+    width:100px;
+    color:#ffffca;
+    font-weight: bold;
+
+}
+
+#centre_schedule_weekend
+{
+   color:#F4AE2C;
+}
+
+table.centre_schedule tbody > tr
+{
+   background-color:#99BDFF;
+    
+}
+
+table.centre_schedule tbody > tr > td
+{
+    min-width:86px;
+    background-color:#DCDCDC;
+    
+   
+
+}
+
+span.bold_font
+{
+    font-weight: bold;
+}
+
+
+

@@ -1,0 +1,37 @@
+ MCSA - MICROSOFT CERTIFIED SYSTEMS ADMINISTRATOR
+http://www.iact.ie/iopen24/product_info.php?products_id=73
+
+Course 2273B: Managing and Maintaining a Microsoft Windows Server 2003 Environment
+http://www.microsoft.com/learning/en/us/course.aspx?ID=2273B&locale=en-us#tab1
+
+MOC 2273: Managing and Maintaining a Microsoft Windows Server 2003 Environment
+http://www.clearlearning.ie/courses/moc-2273-managing-and-maintaining-a-microsoft-windows-server-2003-environment/#more-58
+
+2273 Managing and Maintaining a Microsoft Windows Server 2003 Environment
+http://www.newhorizonsireland.ie/LOCALWEB/catalog/CourseOverview.aspx?CourseKey=300002204&ILT=300002204&OLA=500075526&OLL=&ML=&CoursePartNumber=NHM2273&GroupID=462
+
+MCITP: Microsoft Certified IT Professional - Server Administrator (Formerly MCSA)
+http://www.dorset-college.ie/Computing/courses/course_details/?rid=3&cid=34
+
+MCSA
+http://www.bct.ie/new/part_time/mcsa.php
+
+Microsoft Windows Server 2003
+http://www.buatraining.com/course.asp?ID=Microsoft_Windows_2003_Server_Training_Course
+
+Managing a Microsoft Windows Server 2003 Environment 
+http://www.griffinsoft.com/list/microsoft/man.htm
+
+Windows Server 2003 Managing a Server Environment 
+http://jobbank.fas.ie/servlet/Watis?SESS=6502_6&SERVICE=CRITERIUMBROWSE&COURSE_CODE=L29&TEMPLATE=WWW_JS_TRAIN_CRITERIUM_BROWSE.HTM&ROW=10&BACK=TEMPLATE%3DWWW_JS_TRAIN_CRITERIUM_OVERVIEW.HTM
+
+Windows Server 2003 Managing a Server Environment 
+http://www.ecollege.ie/site/pages/courses/modules/winServ2003/winServ2003.html
+
+Windows 2003 Server Management
+http://jobbank.fas.ie/servlet/Watis?SESS=6502_6&SERVICE=CRITERIUMBROWSE&COURSE_CODE=R88&TEMPLATE=WWW_JS_TRAIN_CRITERIUM_BROWSE.HTM&ROW=5&BACK=TEMPLATE%3DWWW_JS_TRAIN_CRITERIUM_OVERVIEW.HTM
+(transport could be an issue)
+
+CompTIA A+ Essentials 
+http://www.ecollege.ie/site/pages/courses/modules/comptiaEssentials/comptiaEssentials.html
+
